@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
 </head>
 <body>
-    <?php //importer 'nav-bar.html' ?>
+    <?php include 'nav-bar.php'; ?>
     <div class="main">
         <h1> Ville de Mostaganem </h1>
-        <img src="images/Carte1.jpg" alt="Carte geographiqye">
+        <img src="images/Carte1.jpg" alt="Carte géographique">
     </div>  
-    <?php //importer 'contact.html' ?>
+    <?php include 'contact.php'; ?>
 </body>
 </html>
